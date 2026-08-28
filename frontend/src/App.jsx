@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   Navigate,
+  Link,
 } from "react-router-dom";
 
 import {
@@ -70,12 +71,12 @@ const Home = () => {
             add them to your cart, and shop with ease.
           </p>
 
-          <a
-            href="/products"
+          <Link
+            to="/products"
             className="hero-button"
           >
             Start Shopping
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -109,12 +110,12 @@ const Home = () => {
             </p>
           </div>
 
-          <a
-            href="/products"
+          <Link
+            to="/products"
             className="hero-button"
           >
             Browse Products
-          </a>
+          </Link>
         </div>
       </section>
     </div>
